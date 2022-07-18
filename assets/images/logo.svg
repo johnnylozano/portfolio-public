@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="102"
+   height="40"
+   viewBox="0 0 102 40"
+   fill="none"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:export-filename="D:\Tools\Visual Studio Code\Javascript\Portfolio Website\assets\images\logo.png"
+   inkscape:export-xdpi="97.699997"
+   inkscape:export-ydpi="97.699997"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs26">
+    <linearGradient
+       id="linearGradient20907"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop20905" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview24"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="5.1862745"
+     inkscape:cx="5.5916824"
+     inkscape:cy="54.4707"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <rect
+     x="0.69281662"
+     y="0.88563329"
+     width="101"
+     height="38.2449"
+     stroke="#e6ede6"
+     id="rect2" />
+  <text
+     xml:space="preserve"
+     style="font-size:26.6667px;line-height:1.25;font-family:sans-serif"
+     x="3.0850663"
+     y="46.758034"
+     id="text5883"><tspan
+       sodipodi:role="line"
+       id="tspan5881"
+       x="3.0850663"
+       y="46.758034">Johnny Lozano</tspan><tspan
+       sodipodi:role="line"
+       x="3.0850663"
+       y="80.091408"
+       id="tspan6281" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.7455px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e7ede6;fill-opacity:1;stroke-width:0.702965"
+     x="16.916615"
+     y="35.306664"
+     id="text31241"
+     transform="scale(1.0425092,0.95922414)"><tspan
+       sodipodi:role="line"
+       id="tspan31239"
+       x="16.916615"
+       y="35.306664"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.7455px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.702965">LOZANO</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1573px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e7ede6;fill-opacity:1;stroke-width:0.680902"
+     x="5.9826932"
+     y="21.156195"
+     id="text31241-8"
+     transform="scale(1.0306771,0.97023599)"><tspan
+       sodipodi:role="line"
+       id="tspan31239-2"
+       x="5.9826932"
+       y="21.156195"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.1573px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.680902">JOHNNY</tspan></text>
+</svg>

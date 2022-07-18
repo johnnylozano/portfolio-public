@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Johnny Lozano</title>
+      <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+      <!-- BOX ICONS -->
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+      />
+      <!-- REMIXICON -->
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      />
+      <!-- SWIPER -->
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      />
+      <!-- SCROLL REVEAL -->
+      <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+      <link rel="stylesheet" href="./assets/css/styles.css" />
+   </head>
+
+   <body>
+      <!--! === HEADER === -->
+      <header class="header">
+         <nav class="navbar container">
+            <a href="./index.html" class="navbar__logo">
+               <img
+                  src="./assets/images/logo.png"
+                  alt=""
+                  class="navbar__logo-img"
+               />
+            </a>
+            <div class="navbar__menu">
+               <ul class="navbar__list">
+                  <li class="navbar__list-item">
+                     <a href="#home" class="navbar__list-link">Home</a>
+                  </li>
+                  <li class="navbar__list-item">
+                     <a href="#portfolio" class="navbar__list-link"
+                        >Portfolio</a
+                     >
+                  </li>
+                  <li class="navbar__list-item">
+                     <a href="#services" class="navbar__list-link"
+                        >My Tech Stack</a
+                     >
+                  </li>
+                  <li class="navbar__list-item">
+                     <a href="#aboutme" class="navbar__list-link">About me</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="navbar__btn-group">
+               <a
+                  href="mailto:4lozano2@gmail.com"
+                  class="btn btn--text btn--transparent"
+                  >Contact me</a
+               >
+               <button type="button" class="btn btn-action" id="menuToggler">
+                  <svg
+                     width="19"
+                     height="14"
+                     viewBox="0 0 19 14"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg"
+                  >
+                     <path
+                        d="M10.3333 0.999999L0.999918 1"
+                        stroke="#fff"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                     />
+                     <path
+                        d="M17.3333 6.83333L0.999916 6.83333"
+                        stroke="#fff"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                     />
+                     <path
+                        d="M10.3333 12.6667L0.999918 12.6667"
+                        stroke="#fff"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                     />
+                  </svg>
+               </button>
+            </div>
+         </nav>
+      </header>
+      <!--! === MAIN === -->
+      <main>
+         <!--! === SHOWCASE === -->
+         <section class="showcase" id="home">
+            <div class="showcase__container container">
+               <h1 class="showcase__title title title--main">
+                  Hello, I'm Johnny Lozano, a front-end developer.
+               </h1>
+               <picture class="showcase__image">
+                  <source
+                     media="(min-width: 768px)"
+                     srcset="./assets/images/showcase-large.jpg"
+                  />
+                  <img
+                     src="./assets/images/showcase-small.jpg"
+                     alt="Showcase image of Johnny"
+                  />
+               </picture>
+            </div>
+         </section>
+         <!--! === PORTFOLIO === -->
+         <section class="portfolio" id="portfolio">
+            <div class="portfolio__container container">
+               <div class="portfolio__metadata section-metadata">
+                  <h2 class="title">My Projects</h2>
+               </div>
+               <div class="swiper myswiper">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <a
+                           href="https://budgeteers.netlify.app/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <img
+                              src="./assets/images/git-budget.png"
+                              alt="Picture of Budgeteers Website"
+                           />
+                        </a>
+                     </div>
+                     <div class="swiper-slide">
+                        <a href="#">
+                           <img
+                              src="./assets/images/git-port.png"
+                              alt="Picture of Portfolio Website"
+                           />
+                        </a>
+                     </div>
+                     <div class="swiper-slide">
+                        <a
+                           href="https://github.com/johnnylozano/snake.py"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <img
+                              src="./assets/images/git-snake.png"
+                              alt="Picture of Python Snake Project"
+                           />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </section>
+         <!--! === SERVICES === -->
+         <section class="services" id="services">
+            <div class="services__container container">
+               <div class="services__metadata section-metadata">
+                  <h2 class="title">My Tech Stack</h2>
+                  <p class="section-metadata__description">
+                     I specialize in frontend web development utilizing modern
+                     HTML, CSS, JavaScript, and React in order to build elegant
+                     and practical applications. My motto when developing is to
+                     focus on providing the end-user with the best experience as
+                     possible!
+                  </p>
+               </div>
+               <div class="services__image-wrapper">
+                  <video width="250" height="590" autoplay muted loop>
+                     <source
+                        src="./assets/images/typing.mp4"
+                        type="video/mp4"
+                     />
+                  </video>
+               </div>
+               <div class="services__list">
+                  <div class="services__list-divider">
+                     <article class="services__list-item">
+                        <i class="ri-html5-fill services__list-icon"></i>
+                        <i
+                           class="ri-css3-fill services__list-icon"
+                           data-tooltip="CSS3"
+                        ></i>
+                        <h3 class="services__list-title title">HTML/CSS</h3>
+                        <p class="services__list-description">
+                           Modern HTML and CSS techniques in order to build
+                           professional and elegant designs.
+                        </p>
+                     </article>
+                     <article class="services__list-item">
+                        <i
+                           class="bx bxl-javascript services__list-icon"
+                           data-tooltip="JavaScript"
+                        ></i>
+                        <i
+                           class="ri-reactjs-line services__list-icon"
+                           data-tooltip="React"
+                        ></i>
+                        <h3 class="services__list-title title">
+                           JavaScript & React
+                        </h3>
+                        <p class="services__list-description">
+                           Proficient JavaScript and scripting knowledge to
+                           build concurrent and scalable applications.
+                        </p>
+                     </article>
+                  </div>
+                  <article class="services__list-item">
+                     <i
+                        class="bx bxl-nodejs services__list-icon"
+                        data-tooltip="Node.js"
+                     ></i>
+                     <i
+                        class="bx bxl-mongodb services__list-icon"
+                        data-tooltip="MongoDB"
+                     ></i>
+                     <h3 class="services__list-title title">
+                        Node.js and MongoDB
+                     </h3>
+                     <p class="services__list-description">
+                        Backend and database knowledge to deliver robust and
+                        performant solutions.
+                     </p>
+                  </article>
+               </div>
+            </div>
+         </section>
+         <!--! === ABOUT === -->
+         <section class="about" id="aboutme">
+            <div class="about__container container">
+               <div class="about__information">
+                  <h2 class="about__information-title title">About Me</h2>
+                  <p class="about__information-description">
+                     I am a senior pursuing a B.S. in Computer Engineering in
+                     Georgia, USA, and I enjoy playing guitar in my free time. I
+                     am a well-organized, punctual, and independent problem
+                     solver with a high attention to detail. I am interested in
+                     working with ambitious and positive people in the entire
+                     frontend spectrum!
+                  </p>
+                  <p class="about__information-description">
+                     I have always excelled with technology, and I have worked
+                     with many different facets of technology through my
+                     coursework. However, I fell in love with web development in
+                     particular, and I built websites, commercial landing pages,
+                     and web applications for friends and family because I found
+                     it fascinating. In particular, I really enjoy watching how
+                     my projects unfold during the development process, and I
+                     love tinkering with how everything fits together!
+                  </p>
+                  <a
+                     href="https://github.com/johnnylozano"
+                     target="_blank"
+                     class="btn btn--text btn-green"
+                     >Check out my GitHub</a
+                  >
+               </div>
+               <div class="about__images">
+                  <img
+                     src="./assets/images/about.jpg"
+                     alt="Picture of Johnny"
+                     class="about__images-image about__images-image--top"
+                  />
+                  <img
+                     src="./assets/images/guitar.jpg"
+                     alt="Picture of Johnny playing guitar"
+                     class="about__images-image about__images-image--bottom"
+                  />
+               </div>
+            </div>
+         </section>
+      </main>
+      <!--! === FOOTER === -->
+      <div class="footer__container container">
+         <div class="footer__group">
+            <h2 class="footer__title title title--main">
+               Want to learn more about me?
+            </h2>
+            <a
+               href="mailto:4lozano2@gmail.com"
+               class="btn btn--text btn--transparent"
+               >contact me</a
+            >
+         </div>
+         <span class="footer__separator"></span>
+         <div class="footer__group">
+            <a href="#home" class="footer__logo">
+               <img src="./assets/images/logo.png" alt="" />
+            </a>
+            <p class="footer__description"></p>
+            <ul class="footer__list">
+               <li class="footer__list-item">
+                  <a
+                     href="https://github.com/johnnylozano"
+                     class="footer__list-link"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
+                     <i class="ri-github-fill"></i>
+                  </a>
+               </li>
+               <li class="footer__list-item">
+                  <a
+                     href="https://www.linkedin.com/in/johnny-lozano/"
+                     class="footer__list-link"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
+                     <i class="ri-linkedin-box-fill"></i>
+                  </a>
+               </li>
+            </ul>
+            <span class="footer__copyright"
+               >&copy; Johnny Lozano 2022. All rights reserved.</span
+            >
+         </div>
+      </div>
+      <!-- SWIPERJS -->
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="./assets/js/app.js"></script>
+   </body>
+</html>
